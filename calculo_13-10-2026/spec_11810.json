@@ -4,15 +4,35 @@
  "juros_pct": 1.0,
  "data_final": "2026-10-13",
  "numeracao_inicial": 2,
- "pasta_saida": "../saida",
+ "pasta_saida": "../saida_nova",
  "custas": {
   "titulo": "CUSTAS",
   "parcelas": [
-   {"data": "05/12/2018", "descricao": "CUSTAS MATRICULA", "valor": 89.45},
-   {"data": "22/05/2019", "descricao": "CUSTAS DISTRIBUIÇÃO", "valor": 1195.01},
-   {"data": "13/08/2020", "descricao": "CUSTAS CONSTRIÇÃO", "valor": 92.49},
-   {"data": "05/07/2021", "descricao": "CUSTAS MATRICULA", "valor": 127.29},
-   {"data": "06/04/2026", "descricao": "CUSTAS CONSTRIÇÃO", "valor": 150.31}
+   {
+    "data": "05/12/2018",
+    "descricao": "CUSTAS MATRICULA",
+    "valor": 89.45
+   },
+   {
+    "data": "22/05/2019",
+    "descricao": "CUSTAS DISTRIBUIÇÃO",
+    "valor": 1195.01
+   },
+   {
+    "data": "13/08/2020",
+    "descricao": "CUSTAS CONSTRIÇÃO",
+    "valor": 92.49
+   },
+   {
+    "data": "05/07/2021",
+    "descricao": "CUSTAS MATRICULA",
+    "valor": 127.29
+   },
+   {
+    "data": "06/04/2026",
+    "descricao": "CUSTAS CONSTRIÇÃO",
+    "valor": 150.31
+   }
   ]
  },
  "base": {
@@ -24,14 +44,24 @@
   "abatimentos": []
  },
  "levantamentos": [
-  {"tipo": "alvara", "data": "2026-09-22", "valor": 3235.28, "valor_alvara": 3235.28, "mov": 245,
-   "titulo_extra": "(3 alvarás: 1.095,71 + 621,80 + 1.517,77)"}
+  {
+   "tipo": "alvara",
+   "data": "2026-09-22",
+   "valor": 3235.28,
+   "valor_alvara": 3235.28,
+   "mov": 245,
+   "titulo_extra": "(3 alvarás: 1.095,71 + 621,80 + 1.517,77)"
+  }
  ],
  "vincendas": {
-  "titulo": "HONORARIOS SOBRE O CREDITO CONCURSAL",
+  "titulo": "HONORÁRIOS",
   "incidencias": [],
   "parcelas": [
-   {"data": "07/11/2017", "descricao": "Honorários", "valor": 1283.28}
+   {
+    "data": "07/11/2017",
+    "descricao": "Honorários",
+    "valor": 1283.28
+   }
   ]
  },
  "descricao_parcelas": "taxas condominiais extraconcursais"
